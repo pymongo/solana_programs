@@ -1,0 +1,10 @@
+[package]
+name = "timestamp_expire_no_std"
+version = "0.2.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-nostd-entrypoint = "0.6.0"

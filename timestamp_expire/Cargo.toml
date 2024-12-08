@@ -1,0 +1,10 @@
+[package]
+name = "timestamp_expire"
+version = "0.2.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = { version = "=2.0.18", default-features = false }
